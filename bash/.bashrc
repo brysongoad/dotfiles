@@ -9,7 +9,7 @@
 xhost +local:root > /dev/null 2>&1
 
 # Source config files
-for file in /home/bryson/.bash/*;
+for file in $HOME/.bash/*;
 do
 	[ -f "$file" ] && . "$file"
 done
