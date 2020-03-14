@@ -1,0 +1,19 @@
+URxvt.font: xft:inconsolata:size=11
+URxvt.font: xft:CtrlD:size=13
+URxvt.visualBell: True
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+! URxvt.background: green 
+!  URxvt.skipBuiltinGlyphs: True
+!  URxvt.transparent: True
+!  URxvt.shading: 20
+URxvt.depth: 32
+! URxvt.borderColor:
+! URxvt.troughColor: #FFFFFF
+URxvt.internalBorder: 10
+URxvt.externalBorder: 0
+! URxvt.borderLess: true
+
+*.foreground: #FFFFFF
+*foreground: #FFFFFF
+URxvt.foreground: #FFFFFF

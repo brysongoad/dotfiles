@@ -1,0 +1,28 @@
+{
+    "wallpaper": "cray1.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#131810",
+        "foreground": "#c0daaf",
+        "cursor": "#c0daaf"
+    },
+    "colors": {
+        "color0": "#131810",
+        "color1": "#72A552",
+        "color2": "#77906C",
+        "color3": "#7FA961",
+        "color4": "#7FC055",
+        "color5": "#839B76",
+        "color6": "#84AE66",
+        "color7": "#c0daaf",
+        "color8": "#86987a",
+        "color9": "#72A552",
+        "color10": "#77906C",
+        "color11": "#7FA961",
+        "color12": "#7FC055",
+        "color13": "#839B76",
+        "color14": "#84AE66",
+        "color15": "#c0daaf"
+    }
+}

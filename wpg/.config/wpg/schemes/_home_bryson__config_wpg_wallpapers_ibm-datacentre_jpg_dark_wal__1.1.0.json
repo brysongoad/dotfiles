@@ -1,0 +1,28 @@
+{
+    "wallpaper": "ibm-datacentre.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#2c2125",
+        "foreground": "#fcffff",
+        "cursor": "#fcffff"
+    },
+    "colors": {
+        "color0": "#2c2125",
+        "color1": "#8abcb9",
+        "color2": "#de6b6d",
+        "color3": "#ecc282",
+        "color4": "#a7a1bb",
+        "color5": "#e67f9c",
+        "color6": "#87b7c5",
+        "color7": "#ecf3f3",
+        "color8": "#4c4248",
+        "color9": "#8abcb9",
+        "color10": "#de6b6d",
+        "color11": "#ecc282",
+        "color12": "#a7a1bb",
+        "color13": "#e67f9c",
+        "color14": "#87b7c5",
+        "color15": "#fcffff"
+    }
+}

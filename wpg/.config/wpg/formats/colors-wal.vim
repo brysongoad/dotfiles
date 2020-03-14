@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "ibm729-ink-ver-1-centered-1920x1080.jpg"
+let background = "#2c2125"
+let foreground = "#fcffff"
+let cursor     = "#fcffff"
+
+" Colors
+let color0  = "#2c2125"
+let color1  = "#8abcb9"
+let color2  = "#de6b6d"
+let color3  = "#ecc282"
+let color4  = "#a7a1bb"
+let color5  = "#e67f9c"
+let color6  = "#87b7c5"
+let color7  = "#ecf3f3"
+let color8  = "#4c4248"
+let color9  = "#8abcb9"
+let color10 = "#de6b6d"
+let color11 = "#ecc282"
+let color12 = "#a7a1bb"
+let color13 = "#e67f9c"
+let color14 = "#87b7c5"
+let color15 = "#fcffff"

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "tonearm-vinyl-turntable-top-view-technology-12909.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#2f3745",
+        "foreground": "#eeeeee",
+        "cursor": "#eeeeee"
+    },
+    "colors": {
+        "color0": "#2f3745",
+        "color1": "#b77a76",
+        "color2": "#b4bf86",
+        "color3": "#cbb079",
+        "color4": "#68abb5",
+        "color5": "#958090",
+        "color6": "#95d3cd",
+        "color7": "#dddddd",
+        "color8": "#555c69",
+        "color9": "#b77a76",
+        "color10": "#b4bf86",
+        "color11": "#cbb079",
+        "color12": "#68abb5",
+        "color13": "#958090",
+        "color14": "#95d3cd",
+        "color15": "#eeeeee"
+    }
+}

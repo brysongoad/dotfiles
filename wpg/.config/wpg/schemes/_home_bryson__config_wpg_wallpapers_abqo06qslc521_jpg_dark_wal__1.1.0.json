@@ -1,0 +1,28 @@
+{
+    "wallpaper": "abqo06qslc521.jpg",
+    "alpha": "80",
+
+    "special": {
+        "background": "#152651",
+        "foreground": "#fbfbfb",
+        "cursor": "#fbfbfb"
+    },
+    "colors": {
+        "color0": "#152651",
+        "color1": "#3da3ca",
+        "color2": "#ebd945",
+        "color3": "#c0bbbb",
+        "color4": "#6d4478",
+        "color5": "#3b68a0",
+        "color6": "#da5559",
+        "color7": "#e8e3e3",
+        "color8": "#203c6b",
+        "color9": "#38cdf3",
+        "color10": "#edf338",
+        "color11": "#e9e9e9",
+        "color12": "#9247a1",
+        "color13": "#3084d3",
+        "color14": "#ed4953",
+        "color15": "#fbfbfb"
+    }
+}

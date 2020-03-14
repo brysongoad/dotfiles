@@ -1,0 +1,28 @@
+{
+    "wallpaper": "musicmood.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#211a23",
+        "foreground": "#a8c0d2",
+        "cursor": "#a8c0d2"
+    },
+    "colors": {
+        "color0": "#211a23",
+        "color1": "#61596D",
+        "color2": "#9A6472",
+        "color3": "#33598B",
+        "color4": "#67628A",
+        "color5": "#996C93",
+        "color6": "#DA60CE",
+        "color7": "#a8c0d2",
+        "color8": "#758693",
+        "color9": "#61596D",
+        "color10": "#9A6472",
+        "color11": "#33598B",
+        "color12": "#67628A",
+        "color13": "#996C93",
+        "color14": "#DA60CE",
+        "color15": "#a8c0d2"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "hollowknight-quirrel.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#010104",
+        "foreground": "#c6e4f1",
+        "cursor": "#c6e4f1"
+    },
+    "colors": {
+        "color0": "#010104",
+        "color1": "#48739E",
+        "color2": "#7A7F8B",
+        "color3": "#5B8CB3",
+        "color4": "#6CA8CF",
+        "color5": "#61CEED",
+        "color6": "#85BADD",
+        "color7": "#c6e4f1",
+        "color8": "#8a9fa8",
+        "color9": "#48739E",
+        "color10": "#7A7F8B",
+        "color11": "#5B8CB3",
+        "color12": "#6CA8CF",
+        "color13": "#61CEED",
+        "color14": "#85BADD",
+        "color15": "#c6e4f1"
+    }
+}

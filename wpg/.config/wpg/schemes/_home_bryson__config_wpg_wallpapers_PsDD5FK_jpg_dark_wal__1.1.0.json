@@ -1,0 +1,28 @@
+{
+    "wallpaper": "PsDD5FK.jpg",
+    "alpha": "70",
+
+    "special": {
+        "background": "#3b3631",
+        "foreground": "#faffff",
+        "cursor": "#faffff"
+    },
+    "colors": {
+        "color0": "#3b3631",
+        "color1": "#C1C4B9",
+        "color2": "#73878B",
+        "color3": "#B28C6E",
+        "color4": "#CCD8D2",
+        "color5": "#A4A8A2",
+        "color6": "#D2E1DD",
+        "color7": "#e4ecec",
+        "color8": "#504a43",
+        "color9": "#ffffd7",
+        "color10": "#85bac5",
+        "color11": "#fab37c",
+        "color12": "#deffff",
+        "color13": "#ceefbd",
+        "color14": "#dcffff",
+        "color15": "#faffff"
+    }
+}

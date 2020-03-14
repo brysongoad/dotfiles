@@ -1,0 +1,28 @@
+{
+    "wallpaper": "raining-window-blur-dark-clouds-nature-20915.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1c2023",
+        "foreground": "#c0c5ce",
+        "cursor": "#c0c5ce"
+    },
+    "colors": {
+        "color0": "#1c2023",
+        "color1": "#a3be8c",
+        "color2": "#8fa1b3",
+        "color3": "#bf616a",
+        "color4": "#b48ead",
+        "color5": "#ebcb8b",
+        "color6": "#96b5b4",
+        "color7": "#e1e1e1",
+        "color8": "#30333a",
+        "color9": "#a3be8c",
+        "color10": "#8fa1b3",
+        "color11": "#bf616a",
+        "color12": "#b48ead",
+        "color13": "#ebcb8b",
+        "color14": "#96b5b4",
+        "color15": "#c0c5ce"
+    }
+}

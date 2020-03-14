@@ -1,0 +1,289 @@
+; --------------------- Colors ------------------------
+[colors]
+background = ${xrdb:background:#000000}
+bgfocus	   = ${xrdb:color8:#111111}
+foreground = ${xrdb:color7:#ffffff}
+
+color0 = ${xrdb:color0:#ffffff}
+color8 = ${xrdb:color8:#ffffff}
+color7 = ${xrdb:color7:#ffffff}
+
+color1 = ${xrdb:color1:#ffffff}
+color4 = ${xrdb:color4:#ffffff}
+color5 = ${xrdb:color5:#ffffff}
+color6 = ${xrdb:color6:#ffffff}
+color2 = ${xrdb:color2:#ffffff}
+color3 = ${xrdb:color3:#ffffff}
+
+; -----------------------------------------------------
+;                       Bars 
+; -----------------------------------------------------
+[bar/default]
+
+monitor = HDMI1
+;monitor-fallback = eDP1
+
+;override-redirect = true
+
+dpi = 100
+
+dim-value = 1.0
+
+;---- Position/Size ----
+height = 21
+;width = 90%
+;offset-x = 5%
+;offset-y = 20
+;bottom = true 
+
+line-size = 2
+
+;---- Borders ----
+;radius-bottom = 15
+border-bottom-size = 4
+border-color = ${colors.background}
+border-bottom-color = ${colors.foreground}
+border-top-size = 3
+;border-top-color = #00000000
+;border-right-size = 90
+;border-right-color = #00000000
+;border-left-size = 90
+;border-left-color = #00000000
+
+;---- Padding/Margins ----
+;padding-left        = 1
+;padding-right       = 1
+module-margin-left  = 1
+module-margin-right = 1
+
+;---- Colors ----
+background          = ${colors.background} 
+foreground          = ${colors.foreground}
+
+;---- Modules ----
+modules-left        = i3
+modules-center      = xwindow
+modules-right       = wireless-network wired-network battery pulseaudio date
+
+;---- Fonts ----
+;font-0 = iosevka:size=12;
+;font-0 = CtrlD:size=16;1
+font-0 = cherry:size=13;2
+;font-0 = gohufont:size=14;2
+;font-0 = M+ 1m:size=11:weight=regular;2
+;font-0              = bitstream vera sans mono:size=11;2
+;ubuntu mono:size=12;2
+
+;---- System Tray ----
+;tray-position       = right
+;tray-background = ${colors.background}
+;tray-padding        = 5
+;tray-offset-y       = 0%
+;tray-offset-x       = 0%
+;tray-maxsize        = 18
+;tray-detached       = false
+
+[bar/secondary]
+inherit = bar/default
+monitor = eDP1
+
+; ----------------------------------------------------
+;						Modules
+; ----------------------------------------------------
+
+; ------------ wm ------------
+[global/wm]
+margin-top        = 5
+;margin-bottom     = 5
+wm-restack        = i3
+;override-redirect = true
+
+
+; ----------- i3 -------------
+[module/i3]
+type                       = internal/i3
+pin-workspaces             = true
+strip-wsnumbers 		   = true
+index-sort                 = true
+enable-click 			   = true
+enable-scroll              = false
+
+label-unfocused 		   = %index%
+label-unfocused-background = ${colors.background}
+label-unfocused-foreground = ${colors.foreground}
+label-unfocused-padding    = 2
+
+label-visible 		   = %index%
+label-visible-background = ${colors.foreground}
+label-visible-foreground = ${colors.background}
+label-visible-padding    = 2
+;label-visible-underline = ${colors.color4}
+
+label-mode                 = %mode%
+label-mode-padding         = 2
+label-mode-background      = ${colors.bgfocus}
+label-mode-foreground	   = ${colors.foreground}
+
+label-focused = %index%
+label-focused-foreground = ${colors.background}
+label-focused-background = ${colors.foreground}
+
+;label-focused-underline = ${colors.color4}
+
+label-focused-padding = 2
+
+label-urgent = %index%
+label-urgent-foreground = ${colors.color0}
+label-urgent-background = ${colors.color8}
+label-urgent-padding = 2
+
+
+; ---------- xwindow --------
+[module/xwindow]
+type                     = internal/xwindow
+
+format-background = ${colors.background}
+format-padding = 4
+;format-underline = ${colors.color4}
+
+label                    = %title%
+label-maxlen			 = 50
+
+
+; ---------- date -----------
+[module/date]
+type              = internal/date
+interval          = 1
+format            = <label>
+label             = %date% ~ %time%
+date 			  = %A, %d %b %Y
+date-alt		  = %Y-%m-%d%
+time              = %I:%M %p
+time-alt		  = %H:%M
+format-foreground = ${colors.foreground}
+format-background = ${colors.background}
+label-foreground  = ${colors.foreground}
+format-padding = 1
+
+
+; -------- pulseaudio -------
+[module/pulseaudio]
+type = internal/pulseaudio
+interval = 5
+format-volume = <bar-volume>
+format-volume-background = ${colors.background}
+format-volume-foreground = ${colors.foreground}
+format-volume-padding = 1
+
+bar-volume-format = %fill%%empty%
+bar-volume-width = 10
+
+;bar-volume-gradient = true
+;bar-volume-foreground-0 = ${colors.color2}
+;bar-volume-foreground-1 = ${colors.color3}
+;bar-volume-foreground-2 = ${colors.color4}
+
+bar-volume-fill = /
+bar-volume-empty = -
+
+ramp-volume-0 = 🔈
+ramp-volume-1 = 🔉
+ramp-volume-2 = 🔊
+
+label-muted = 🔇 muted
+
+
+; -------- battery ---------
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = AC
+full-at = 100
+
+label-charging = %percentage%%
+label-discharging = %percentage%%
+label-full = %percentage%%
+
+format-charging = <label-charging>
+format-discharging = <label-discharging>
+format-full = <label-full>
+;format-charging-background = ${colors.color3}
+format-charging-foreground = ${colors.color2}
+;format-full-background = ${colors.color2}
+format-full-foreground = ${colors.foreground}
+;format-discharging-background = ${colors.color6}
+format-discharging-foreground = ${colors.foreground}
+format-charging-padding = 1
+format-full-padding = 1
+format-discharging-padding = 1
+
+
+; ------- networks ---------
+[module/wireless-network]
+type                           = internal/network
+accumulate-stats               = true
+interface                      = wlp2s0
+interval                       = 3.0
+format-connected               = <label-connected>
+format-connected-foreground    = ${colors.foreground} 
+;format-connected-background = ${colors.color5}
+format-connected-padding = 1
+format-disconnected            =  <label-disconnected>
+format-disconnected-foreground = ${colors.color1} 
+;format-disconnected-background = ${colors.color1}
+format-disconnected-padding = 1
+
+label-connected                = %essid%
+label-connected-foreground     = 
+label-disconnected             = disconnected
+label-disconnected-foreground  = 
+ramp-signal-0                  = 
+ramp-signal-1                  = 
+ramp-signal-2                  = 
+ramp-signal-3                  = 
+ramp-signal-4                  = 
+
+[module/wired-network]
+type                           = internal/network
+accumulate-stats               = true
+interface                      = enp0s20u1
+interval                       = 5.0
+format-connected               =  <label-connected>
+format-connected-foreground    = 
+format-disconnected            =  <label-disconnected>
+format-disconnected-foreground = 
+label-connected                = %ifname%
+label-connected-foreground     = 
+label-disconnected             = disconnected
+label-disconnected-foreground  = 
+
+;[module/vpn]
+;type                          = internal/network
+;interface                     = tun0
+;interval                      = 5.0
+;accumulate-stats              = true
+;format-connected              = VPN: <label-connected>
+;format-connected-foreground   = 
+;format-disconnected           = <label-disconnected>
+;label-connected               = Connected
+;label-connected-foreground    = 
+;label-disconnected            = (None)
+;label-disconnected-foreground = 
+
+
+; --------- lock ----------
+;[module/lock]
+;type    = custom/text
+;content = 
+
+;content-foreground =
+;click-left         = displayctl -l
+
+
+; --------- power ---------
+;[module/power]
+;type    = custom/text
+;content = 
+
+;content-foreground =
+;click-left         = qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.logout -1 -1 -1

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "humphrey-muleba-1199153-unsplash.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0a0a09",
+        "foreground": "#a7b6bf",
+        "cursor": "#a7b6bf"
+    },
+    "colors": {
+        "color0": "#0a0a09",
+        "color1": "#374953",
+        "color2": "#5C5856",
+        "color3": "#9A502F",
+        "color4": "#B05937",
+        "color5": "#9D6856",
+        "color6": "#C08870",
+        "color7": "#a7b6bf",
+        "color8": "#747f85",
+        "color9": "#374953",
+        "color10": "#5C5856",
+        "color11": "#9A502F",
+        "color12": "#B05937",
+        "color13": "#9D6856",
+        "color14": "#C08870",
+        "color15": "#a7b6bf"
+    }
+}

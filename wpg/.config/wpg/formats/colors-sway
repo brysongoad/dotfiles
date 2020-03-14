@@ -1,0 +1,21 @@
+set $wallpaper ibm729-ink-ver-1-centered-1920x1080.jpg
+
+set $background #2c2125
+set $foreground #fcffff
+
+set $color0 #2c2125
+set $color1 #8abcb9
+set $color2 #de6b6d
+set $color3 #ecc282
+set $color4 #a7a1bb
+set $color5 #e67f9c
+set $color6 #87b7c5
+set $color7 #ecf3f3
+set $color8 #4c4248
+set $color9 #8abcb9
+set $color10 #de6b6d
+set $color11 #ecc282
+set $color12 #a7a1bb
+set $color13 #e67f9c
+set $color14 #87b7c5
+set $color15 #fcffff

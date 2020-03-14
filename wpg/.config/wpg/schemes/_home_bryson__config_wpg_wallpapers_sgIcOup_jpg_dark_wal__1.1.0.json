@@ -1,0 +1,28 @@
+{
+    "wallpaper": "sgIcOup.jpg",
+    "alpha": "80",
+
+    "special": {
+        "background": "#011639",
+        "foreground": "#fff7ff",
+        "cursor": "#fff7ff"
+    },
+    "colors": {
+        "color0": "#011639",
+        "color1": "#7b618d",
+        "color2": "#5f578b",
+        "color3": "#78729f",
+        "color4": "#4061a0",
+        "color5": "#9f7ea9",
+        "color6": "#8a88a2",
+        "color7": "#edc6d4",
+        "color8": "#033c7f",
+        "color9": "#9c6ac0",
+        "color10": "#6c5ebc",
+        "color11": "#8c7ed9",
+        "color12": "#4275d6",
+        "color13": "#d48ce8",
+        "color14": "#9e98df",
+        "color15": "#fff7ff"
+    }
+}

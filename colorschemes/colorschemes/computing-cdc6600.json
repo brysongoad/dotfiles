@@ -1,0 +1,28 @@
+{
+    "wallpaper": "cdc6600-ink-ver.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#1d2626",
+        "foreground": "#fcffff",
+        "cursor": "#fcffff"
+    },
+    "colors": {
+        "color0": "#1d2626",
+        "color1": "#de6b6d",
+        "color2": "#8abcb9",
+        "color3": "#ecc282",
+        "color4": "#a7a1bb",
+        "color5": "#e67f9c",
+        "color6": "#87b7c5",
+        "color7": "#ecf3f3",
+        "color8": "#424d4e",
+        "color9": "#de6b6d",
+        "color10": "#8abcb9",
+        "color11": "#ecc282",
+        "color12": "#a7a1bb",
+        "color13": "#e67f9c",
+        "color14": "#87b7c5",
+        "color15": "#fcffff"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "wallpaper": "firewatch-landscape-forest-minimalistic-games-6993.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#091E1F",
+        "foreground": "#ddeabf",
+        "cursor": "#ddeabf"
+    },
+    "colors": {
+        "color0": "#091E1F",
+        "color1": "#3E8E62",
+        "color2": "#54986D",
+        "color3": "#5CA174",
+        "color4": "#8EB777",
+        "color5": "#77B188",
+        "color6": "#A7CE8A",
+        "color7": "#ddeabf",
+        "color8": "#9aa385",
+        "color9": "#3E8E62",
+        "color10": "#54986D",
+        "color11": "#5CA174",
+        "color12": "#8EB777",
+        "color13": "#77B188",
+        "color14": "#A7CE8A",
+        "color15": "#ddeabf"
+    }
+}

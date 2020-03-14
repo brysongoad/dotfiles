@@ -1,0 +1,28 @@
+{
+    "wallpaper": "night-mountains.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#061216",
+        "foreground": "#a5bfd2",
+        "cursor": "#a5bfd2"
+    },
+    "colors": {
+        "color0": "#061216",
+        "color1": "#2A5866",
+        "color2": "#376874",
+        "color3": "#467278",
+        "color4": "#3E7480",
+        "color5": "#497A83",
+        "color6": "#5D8B8D",
+        "color7": "#a5bfd2",
+        "color8": "#738593",
+        "color9": "#2A5866",
+        "color10": "#376874",
+        "color11": "#467278",
+        "color12": "#3E7480",
+        "color13": "#497A83",
+        "color14": "#5D8B8D",
+        "color15": "#a5bfd2"
+    }
+}
