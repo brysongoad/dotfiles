@@ -1,1 +1,4 @@
 bin/
+bash/.bash/local-env.bash
+.luarc*
+*packer_compiled.lua*
