@@ -63,5 +63,5 @@ unset use_color safe_term match_lhs sh
 # ( ) # Hide shell job control messages.
 
 # (cat ~/.cache/wal/sequences &) # use for wal
-(cat ~/.config/wpg/sequences &)  # use for wpg
+#(cat ~/.config/wpg/sequences &)  # use for wpg
 
