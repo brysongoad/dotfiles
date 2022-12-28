@@ -50,14 +50,15 @@
     min-height: 0;
     margin: 1px;
     padding: 0;
+    font-family: UbuntuMono;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-/* The whole bar */
+/* The base bar */
 #waybar {
     color: @text;
     background-color: @base;
-    font-family: UbuntuMono;
-    font-size: 14px;
 }
 
 /* Every module */
@@ -162,19 +163,22 @@
 }
 
 #workspaces {
-    /*font-size:13px;*/
+    /* font-size:13px; */
 }
 
 #workspaces button {
     border-bottom: 3px solid transparent;
     margin-bottom: 0px;
     padding:0px;
+    padding-top:3px;
+}
+
+#workspaces button.visible {
+    border-bottom: 3px solid @highlight;
 }
 
 #workspaces button.focused {
-    border-bottom: 3px solid @highlight;
-    margin-bottom: 1px;
-    padding-left:0;
+    background: @highlight;
 }
 
 #workspaces button.urgent {
